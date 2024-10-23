@@ -20,5 +20,10 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
+
+    private void OnTestSentryMauiBtnClicked(object sender, EventArgs e)
+	{
+        SentrySdk.CaptureMessage("Hello Sentry from Simple Maui WinUI App");
+    }
 }
 
