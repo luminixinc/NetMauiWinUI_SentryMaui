@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/MauiApp1
+/.vs
+/MauiApp1.WinUI/obj
+/MauiApp1/obj
