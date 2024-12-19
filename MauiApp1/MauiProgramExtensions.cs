@@ -12,7 +12,7 @@ public static class MauiProgramExtensions
             // Add this section anywhere on the builder:
             .UseSentry(options => {
                 // The DSN is the only required setting.
-                options.Dsn = "https://703c94c1ea60b9cc01339110702b9845@o4508172351438848.ingest.us.sentry.io/4508172353798144";
+                options.Dsn = "..... ADD VALUE .....";
 
                 // Use debug mode if you want to see what the SDK is doing.
                 // Debug messages are written to stdout with Console.Writeline,
